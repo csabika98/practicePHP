@@ -18,9 +18,11 @@ echo $name[2] . "<br>";
     
 //assoc array    
     
-$names = array("first_name" => 'Edwin');    
+$names = array("first_name" => 'Edwin', "Last_Name"=>'Diaz');    
 
-print_r($names);    
+print_r($names);
+
+echo $names['first_name'] . "  " .  $names['Last_Name'];
     
     
 ?>    
